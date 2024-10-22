@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drag & Drop</title>
+        <script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
+    </head>
+
+    <body>
+        <img src="/img/illustration_map_curacao.svg" alt="carte">
+
+    </body>
+    <script>
+        var elem = document.querySelector('.draggable');
+var draggie = new Draggabilly( elem, {
+  // options...
+  axis : "x"
+});
+    </script>
+</html>

@@ -30,12 +30,21 @@
             margin: 0;
         }
 
+        .container {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+
         .carte {
             width: 600%;
             height: auto;
+            cursor: move;
 
         }
-        
+
     </style>
 
     <body>
@@ -46,8 +55,33 @@
     </body>
     <script>
         var elem = document.querySelector('.carte');
-        var draggie = new Draggabilly(elem, {
-            //containment: '.container'
+        var draggie = new Draggabilly(elem);
+
+        // Gérer les limites pendant le déplacement
+        draggie.on('dragMove', function (event, pointer, moveVector) {
+            var position = draggie.position;
+            var containerRect = document.querySelector('.container').getBoundingClientRect();
+            var elemRect = elem.getBoundingClientRect();
+
+            // Calculer les limites
+            var minX = containerRect.width - elemRect.width;
+            var maxX = 0;
+            var minY = containerRect.height - elemRect.height;
+            var maxY = 0;
+
+            // Appliquer les limites
+            if (position.x < minX) {
+                draggie.position.x = minX;
+            }
+            if (position.x > maxX) {
+                draggie.position.x = maxX;
+            }
+            if (position.y < minY) {
+                draggie.position.y = minY;
+            }
+            if (position.y > maxY) {
+                draggie.position.y = maxY;
+            }
         });
     </script>
 </html>

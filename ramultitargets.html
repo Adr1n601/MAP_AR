@@ -18,6 +18,7 @@
             <a-assets>
 
                 <a-asset-item id="CharaFoxV2" src="img/AR/Chara FoxV2 Fusion Mesh.gltf"></a-asset-item>
+                <a-asset-item id="pokeball" src="img/AR/pokeball.gltf"></a-asset-item>
 
             </a-assets>
 
@@ -28,6 +29,10 @@
                 <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="0.05 0.05 0.05" src="#CharaFoxV2" animation-mixer>
             </a-entity>
             
+            <!-- image cible02 -->
+            <a-entity mindar-image-target="targetIndex: 1">
+                <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="0.05 0.05 0.05" src="#pokeball" animation-mixer>
+            </a-entity>
         </a-scene>
 
     </body>

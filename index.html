@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
-        <link rel="stylesheet" href="https://newcss.net/theme/night.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link rel="stylesheet" href="https://newcss.net/theme/night.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card a {
+            color: white;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-        <style>
-            a {
-                color: white;
-            }
-        </style>
-    </head>
+<body>
 
-    <body>
+    <h1>Exercices du cours Creative Coding (Avancé)</h1>
 
-        <h1>Exercices du cours Creative coding (avancé)</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Drag and Drop</h5>
+                        <p class="card-text">Découvrez l'exercice interactif sur le drag and drop.</p>
+                        <a href="dragndrop.html" class="btn btn-primary">Voir l'exercice</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">RA Basic</h5>
+                        <p class="card-text">Un aperçu des bases de la réalité augmentée.</p>
+                        <a href="rabasic.html" class="btn btn-primary">Voir l'exercice</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">RA Modifiée</h5>
+                        <p class="card-text">Explorez une version modifiée de la RA.</p>
+                        <a href="raperso.html" class="btn btn-primary">Voir l'exercice</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">RA Multiple Targets</h5>
+                        <p class="card-text">Testez la RA avec plusieurs cibles.</p>
+                        <a href="ramultitargets.html" class="btn btn-primary">Voir l'exercice</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <ul>
-            <li> <a href="dragndrop.html"> Drag and Drop</a></li>
-            <li> <a href="rabasic.html"> RA basic</a></li>
-            <li><a href="raperso.html">RA modifiée</a></li>
-            <li><a href="ramultitargets.html">RA multiple targets</a></li>
-            
-        </ul>
-
-
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>

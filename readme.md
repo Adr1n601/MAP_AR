@@ -44,3 +44,29 @@ Voici une vidéo montrant les tests avec plusieurs cibles :
   
 
 ---
+
+## Projet final - Map Pokémon AR 🎮
+
+Pour le projet final, vous pouvez découvrir une **map Pokémon en réalité augmentée** (AR), qui combine les techniques de cartographie interactive avec des éléments de réalité augmentée pour offrir une expérience immersive et ludique. Venez capturer vos Pokémon !
+
+### Images des Cibles
+Voici les trois cibles que vous pouvez scanner pour expérimenter la réalité augmentée avec ce projet :
+
+- **Cible 1 - Pokémon**
+  ![Cible 1 - Pokémon](proto_final/img/Voltobre.png)
+
+- **Cible 2 - Pokémon**
+  ![Cible 2 - Pokémon](proto_final/img/Arcanin.png)
+
+- **Cible 3 - Pokémon**
+  ![Cible 3 - Pokémon](proto_final/img/Psykokwak.png)
+
+---
+
+## Maquette Figma
+
+Vous pouvez également consulter mes wireframes du projet dans **Figma**.
+
+[**Voir la maquette Figma**](https://www.figma.com/design/RKqqM1etFd7DDgzeLrX1fo/Map_Slider_Pok%C3%A9mon_AR?node-id=0-1&t=MtN0GffFJPX4VCht-1)
+
+---
